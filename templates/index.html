@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardín PC - Reparación, Armado y Venta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>El Jardín PC</h1>
+        <p>Reparación y Venta de Equipos Informáticos</p>
+        <nav>
+            <ul>
+                <li><a href="#Restauración">Restauración y Configuración</a></li>
+                <li><a href="#Diagnóstico">Diagnóstico del Equipo</a></li>
+                <li><a href="#Limpieza">Limpieza de Notebooks</a></li>
+                <li><a href="#Instalación">Instalación de Sistemas Operativos</a></li>
+                <li><a href="#Ensamblado">Ensamblado de Equipos</a></li>
+                <li><a href="#Soporte">Soporte Técnico</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Restauración">
+            <h2>Restauración y Configuración de Sistemas</h2>
+            <div class="service">
+                <img src="{{ url_for('static', filename='images/restauración_sistema.jpeg') }}" alt="Restauración y Configuración de Sistemas">
+                <p class="justify">Restablecemos tu sistema operativo, instalamos programas básicos y aseguramos un rendimiento óptimo.</p>
+                <p><a href="https://wa.me/+5492216233327?text=Me%20interesa%20la%20restauración%20y%20configuración%20del%20sistema" target="_blank">Más información sobre restauración y configuración del sistema</a></p>
+            </div>
+        </section>
+
+        <section id="Diagnóstico">
+            <h2>Diagnóstico del Equipo</h2>
+            <div class="service">
+                <img src="{{ url_for('static', filename='images/diagnóstico_del_equipo.jpeg') }}" alt="Diagnóstico del Equipo">
+                <p class="justify">Conoce el problema de tu equipo antes de decidir el arreglo.</p>
+                <p><a href="https://wa.me/+5492216233327?text=Me%20interesa%20el%20diagnóstico%20del%20equipo" target="_blank">Más información sobre diagnóstico del equipo</a></p>
+            </div>
+        </section>
+
+        <section id="Limpieza">
+            <h2>Limpieza Profunda de Notebooks</h2>
+            <div class="service">
+                <img src="{{ url_for('static', filename='images/limpieza_notebooks.jpeg') }}" alt="Limpieza Profunda de Notebooks">
+                <p class="justify">Servicio de limpieza interna con cambio de pasta térmica para mejorar el rendimiento y prolongar la vida útil de tu notebook.</p>
+                <p><a href="https://wa.me/+5492216233327?text=Me%20interesa%20la%20limpieza%20profunda%20de%20notebooks" target="_blank">Más información sobre limpieza profunda de notebooks</a></p>
+            </div>
+        </section>
+
+        <section id="Instalación">
+            <h2>Instalación de Sistemas Operativos Alternativos o Dual Boot</h2>
+            <div class="service">
+                <img src="{{ url_for('static', filename='images/instalación_so.jpeg') }}" alt="Instalación de Sistemas Operativos Alternativos o Dual Boot">
+                <p class="justify">Para usuarios que buscan opciones diferentes a Windows y para los que no se deciden del todo a dejarlo.</p>
+                <p><a href="https://wa.me/+5492216233327?text=Me%20interesa%20la%20instalación%20de%20sistemas%20operativos%20alternativos%20o%20dual%20boot" target="_blank">Más información sobre instalación de sistemas operativos</a></p>
+            </div>
+        </section>
+
+        <section id="Ensamblado">
+            <h2>Ensamblado de Equipos Profesionales</h2>
+            <div class="service">
+                <img src="{{ url_for('static', filename='images/ensamblado_equipos.jpeg') }}" alt="Ensamblado de Equipos Profesionales">
+                <p class="justify">Ofrecemos una solución integral para tus necesidades profesionales. Presupuestos personalizados para arquitectura, diseño audiovisual, música, DJs y más.</p>
+                <p><a href="https://wa.me/+5492216233327?text=Me%20interesa%20el%20ensamblado%20de%20equipos%20profesionales" target="_blank">Más información sobre ensamblado de equipos</a></p>
+            </div>
+        </section>
+
+        <section id="Soporte">
+            <h2>Soporte Técnico para Profesionales</h2>
+            <div class="service">
+                <img src="{{ url_for('static', filename='images/soporte_técnico.jpeg') }}" alt="Soporte Técnico para Profesionales">
+                <p class="justify">Soluciones personalizadas para profesionales que entienden que una PC en condiciones es tiempo y esfuerzo ahorrados. Ofrecemos programas especiales y asesoramiento sobre equipos para uso profesional (arquitectura, diseño audiovisual, cálculo científico, programación).</p>
+                <p><a href="https://wa.me/+5492216233327?text=Me%20interesa%20el%20soporte%20t%C3%A9cnico%20para%20profesionales" target="_blank">Más información sobre soporte técnico</a></p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información, <a href="https://wa.me/+5492216233327" target="_blank">contáctanos por WhatsApp</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 El Jardín PC</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
